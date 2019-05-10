@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Varela');
+*{
+	margin : 0;
+	padding : 0;
+	font-family : 'Slabo 27px', serif;
+}
+body{
+	background-image : url("https://images.wallpaperscraft.com/image/cube_dark_texture_shape_119956_1280x720.jpg");
+	background-size : cover;
+	background-repeat : no-repeat;
+}
+nav{
+	width:100%;
+	height:44px;
+	position:fixed;
+	background-color: #0006;
+}
+nav a{
+	color : white;
+	font-size : 13px;
+	text-decoration : none;
+	text-transform : uppercase;
+	font-family : Orbitron;
+}
+nav li{
+	list-style : none;
+	display : inline-block;
+	padding-top : 13px;
+	padding-bottom : 13px;
+	padding-left : 30px;
+	padding-right : 30px;
+	transition : 0.8s all;
+}
+nav li:hover{
+	background-color : #404040;
+}
+nav ul{
+	text-align : right;
+	padding-right : 75px;
+	color : white;
+}
+
+.mypic{
+	width : 400px;
+	height : 410px;
+	position : absolute;
+	border : solid black 6px;
+	top : 120px;
+	left : 100px;
+	opacity : 0.8;
+	transition : 0.8s;
+}
+.mypic:hover{
+	opacity : 1;
+}
+.bio{
+	color : coral;
+	font-size : 30px;
+	font-family : Poiret One;
+	text-align : center;
+	font-weight : bold;
+	transition : 0.8s all;
+	line-height : 50px;
+}
+.bio:hover{
+	color : yellow;
+	font-size : 32px;
+}
+#my_bio{
+	position : relative;
+	background-image : linear-gradient(#0009, #0000);
+	top : 245px;
+	right : -600px;
+	width : 700px;
+	height : 175px;
+	padding-right : 6px;
+}
+table{
+	position : absolute;
+	top : 65px;
+	left : 100px;
+}
+.twelve{
+	color : purple;
+	text-align : left;
+	padding-bottom : 20px;
+	font-size : 36px;
+	border-bottom : 6px solid #E295E8;
+	font-family : Orbitron;
+}
+.college{
+	color : purple;
+	text-align : left;
+	padding-bottom : 17px;
+	font-size : 36px;
+	border-bottom : 6px solid #E295E8;
+	font-family : Orbitron;
+}
+td{
+	color : #CCCC00;
+	font-family : Varela;
+	font-weight : bold;
+	font-size : 20px;
+	transition : 0.8s;
+}
+td:hover{
+	font-size : 24px;
+}
+.kvs_logo{
+	padding-left : 55px;
+	padding-bottom : 40px;
+}
+.iit_logo{
+	padding-left : 72px;
+	padding-bottom : 50px;
+}
+.interests{
+	color : coral;
+	line-height : 38px;
+	font-size : 36px;
+	text-align : center;
+}
+#int{
+	position : absolute;
+	top : 200px;
+	left : 120px;
+	padding : 20px;
+	background-image : linear-gradient(#0009, #0000);
+}
+.intimg1{
+	position : absolute;
+	top : 80px;
+	right : 100px;
+	opacity : 0.8;
+	transition : 0.8s;
+}
+.intimg1:hover{
+	opacity : 1;
+}
+.intimg2{
+	position : absolute;
+	top : 210px;
+	left : 50%;
+	opacity : 0.5;
+	transition : 0.8s;
+}
+.intimg2:hover{
+	opacity : 1;
+}
+.intimg3{
+	position : absolute;
+	top : 420px;
+	right : 30px;
+	opacity : 0.6;
+	transition : 0.8s;
+}
+.intimg3:hover{
+	opacity : 1;
+}
+.phone{
+	position : absolute;
+	top : 150px;
+	left : 100px;
+}
+.phoneno{
+	font-family : Orbitron;
+	font-size : 19px;
+	color : #ffcc99;
+	position : absolute;
+	top : 170px;
+	left : 180px;
+}
+.facebook{
+	position : absolute;
+	top : 300px;
+	left : 110px;
+}
+.facebookid a{
+	font-size : 22px;
+	position : absolute;
+	color : #ffcc99;
+	font-family : Orbitron;
+	text-decoration : none;
+	top : 320px;
+	left : 190px;
+}
+.facebookid a:hover{
+	text-decoration : underline;
+	font-size : 24px;
+}
+.gmail{
+	position : absolute;
+	top : 440px;
+	left : 110px;
+}
+.gmailid{
+	font-size : 22px;
+	position : absolute;
+	color : #ffcc99;
+	font-family : Orbitron;
+	top : 455px;
+	left : 193px;
+}
